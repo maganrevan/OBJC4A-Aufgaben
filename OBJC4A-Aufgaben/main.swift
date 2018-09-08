@@ -10,6 +10,27 @@
 
 import Foundation
 
+/* Aufgabe 2.4 Beginn */
+
+var test = [1.0,1.1,1.2,1.3,1.4,1.5,1.6,1.7,1.8,1.9]
+
+// a)
+for index in 0..<10{
+    print("Das Element an der Position \(index) lautet \(test[index])")
+}
+
+// b)
+for (index, value) in test.enumerated(){
+    print("Das Element an der Position \(index) lautet \(value)")
+}
+
+// c)
+for index in 0..<test.count{
+    print("Das Element an der Position \(index) lautet \(test[index])")
+}
+
+/* Aufgabe 2.4 Ende */
+
 /* Aufgabe 2.2 Beginn */
 /*
 func eingabe(testArray : [Double]) {
